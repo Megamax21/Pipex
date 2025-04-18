@@ -5,7 +5,7 @@
 Voici un plan détaillé pour t’aider à progresser dans le projet Pipex :
 
 ---
-
+<div style="background-color:yellow">
 ### 1. **Création du pipe** ✅
 
 Utilise la fonction `pipe()` pour créer un canal de communication entre les deux processus.
@@ -18,7 +18,7 @@ if (pipe(pipe_fd) == -1)
     exit(EXIT_FAILURE);
 }
 ```
-
+</div>
 ---
 
 ### 2. **Fork du premier processus (cmd1)** ✅
