@@ -6,7 +6,7 @@ Voici un plan détaillé pour t’aider à progresser dans le projet Pipex :
 
 ---
 
-### 1. **Création du pipe**
+### 1. **Création du pipe** ✅
 
 Utilise la fonction `pipe()` pour créer un canal de communication entre les deux processus.
 
@@ -21,7 +21,7 @@ if (pipe(pipe_fd) == -1)
 
 ---
 
-### 2. **Fork du premier processus (cmd1)**
+### 2. **Fork du premier processus (cmd1)** ✅
 
 Crée un processus enfant pour exécuter la première commande.
 
